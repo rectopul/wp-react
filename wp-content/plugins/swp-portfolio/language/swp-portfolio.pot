@@ -1,0 +1,865 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Portfolio Builder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-17 14:14+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.4; wp-5.8.1\n"
+"X-Domain: swp-portfolio"
+
+#. 1: Plugin name 2: Elementor
+#: elementor/swp-portfolio-elementor-widgets-init.php:151
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#. 1: Plugin name 2: Elementor 3: Required Elementor version
+#. 1: Plugin name 2: PHP 3: Required PHP version
+#: elementor/swp-portfolio-elementor-widgets-init.php:175
+#: elementor/swp-portfolio-elementor-widgets-init.php:200
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:396
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:417
+msgid "Active/Hover  Color"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:407
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:428
+#: elementor/widgets/class-swp-portfolio-style-tab.php:420
+msgid "Active/Hover bg Color"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-tab.php:409
+msgid "Active/Hover Color"
+msgstr ""
+
+#: admin/class-custom-post-type.php:34 admin/class-custom-post-type.php:35
+msgid "Add New Portfolio"
+msgstr ""
+
+#: admin/class-custom-taxonomy.php:38
+msgid "Add New portfolio-category"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:512
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:618
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:720
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:822
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:920
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:533
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:601
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:670
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:737
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:805
+msgid "All"
+msgstr ""
+
+#: admin/class-custom-post-type.php:39
+msgid "All Portfolio"
+msgstr ""
+
+#: admin/class-custom-taxonomy.php:33
+msgid "All portfolio-categories"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:48
+#: elementor/widgets/class-swp-portfolio-style-grid.php:48
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:48
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:48
+#: elementor/widgets/class-swp-portfolio-style-slider.php:48
+#: elementor/widgets/class-swp-portfolio-style-tab.php:48
+msgid "Amount of post to display"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:118
+#: elementor/widgets/class-swp-portfolio-style-grid.php:133
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:122
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:134
+#: elementor/widgets/class-swp-portfolio-style-slider.php:122
+#: elementor/widgets/class-swp-portfolio-style-tab.php:96
+msgid "ASC"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:102
+#: elementor/widgets/class-swp-portfolio-style-grid.php:117
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:106
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:118
+#: elementor/widgets/class-swp-portfolio-style-slider.php:106
+#: elementor/widgets/class-swp-portfolio-style-tab.php:80
+msgid "Author"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:338
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:373
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:394
+#: elementor/widgets/class-swp-portfolio-style-tab.php:386
+msgid "Button  Color"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:350
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:384
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:405
+#: elementor/widgets/class-swp-portfolio-style-tab.php:397
+msgid "Button Background  Color"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:375
+msgid "Button Hover Background  Color"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:363
+msgid "Button Hover Color"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:330
+msgid "Button Style"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-tab.php:59
+msgid "Category Filter"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:104
+#: elementor/widgets/class-swp-portfolio-style-grid.php:119
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:108
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:120
+#: elementor/widgets/class-swp-portfolio-style-slider.php:108
+#: elementor/widgets/class-swp-portfolio-style-tab.php:82
+msgid "Date"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:189
+#: elementor/widgets/class-swp-portfolio-style-grid.php:204
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:193
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:208
+#: elementor/widgets/class-swp-portfolio-style-slider.php:193
+#: elementor/widgets/class-swp-portfolio-style-tab.php:167
+msgid "Default"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:117
+#: elementor/widgets/class-swp-portfolio-style-grid.php:132
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:121
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:133
+#: elementor/widgets/class-swp-portfolio-style-slider.php:121
+#: elementor/widgets/class-swp-portfolio-style-tab.php:95
+msgid "DESC"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:138
+#: elementor/widgets/class-swp-portfolio-style-grid.php:153
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:142
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:157
+#: elementor/widgets/class-swp-portfolio-style-slider.php:142
+#: elementor/widgets/class-swp-portfolio-style-tab.php:116
+msgid "Display"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-grid.php:252
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:215
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:230
+#: elementor/widgets/class-swp-portfolio-style-slider.php:241
+#: elementor/widgets/class-swp-portfolio-style-tab.php:212
+msgid "Display Icon"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:210
+#: elementor/widgets/class-swp-portfolio-style-grid.php:225
+#: elementor/widgets/class-swp-portfolio-style-slider.php:214
+#: elementor/widgets/class-swp-portfolio-style-tab.php:188
+msgid "Display Sub Title"
+msgstr ""
+
+#: admin/class-custom-post-type.php:37
+msgid "Edit Portfolio"
+msgstr ""
+
+#: admin/class-custom-taxonomy.php:36
+msgid "Edit portfolio-category"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Ele Blog is a elementor extention to display deafult WordPress Blog Posts. "
+"It's has 10+  premade blog style like grid style, slider, isotop etc."
+msgstr ""
+
+#: elementor/swp-portfolio-elementor-widgets-init.php:201
+msgid "ELEBLOG"
+msgstr ""
+
+#: elementor/swp-portfolio-elementor-widgets-init.php:152
+msgid "Eleblog"
+msgstr ""
+
+#: elementor/swp-portfolio-elementor-widgets-init.php:176
+msgid "Eleblog Addon"
+msgstr ""
+
+#: elementor/swp-portfolio-elementor-widgets-init.php:153
+#: elementor/swp-portfolio-elementor-widgets-init.php:177
+msgid "Elementor"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:142
+#: elementor/widgets/class-swp-portfolio-style-grid.php:157
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:146
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:161
+#: elementor/widgets/class-swp-portfolio-style-slider.php:146
+#: elementor/widgets/class-swp-portfolio-style-tab.php:120
+msgid "Excerpt"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:90
+#: elementor/widgets/class-swp-portfolio-style-grid.php:105
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:94
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:106
+#: elementor/widgets/class-swp-portfolio-style-slider.php:94
+msgid "Exclude Category"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:190
+#: elementor/widgets/class-swp-portfolio-style-grid.php:205
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:194
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:209
+#: elementor/widgets/class-swp-portfolio-style-slider.php:194
+#: elementor/widgets/class-swp-portfolio-style-tab.php:168
+msgid "External"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:365
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:386
+msgid "Filter Button Style"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:141
+#: elementor/widgets/class-swp-portfolio-style-grid.php:156
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:145
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:160
+#: elementor/widgets/class-swp-portfolio-style-slider.php:145
+#: elementor/widgets/class-swp-portfolio-style-tab.php:119
+msgid "Full Title"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:41
+#: elementor/widgets/class-swp-portfolio-style-grid.php:41
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:41
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:41
+#: elementor/widgets/class-swp-portfolio-style-slider.php:41
+#: elementor/widgets/class-swp-portfolio-style-tab.php:41
+msgid "Generel Settings"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:23
+msgid "Generel Style"
+msgstr ""
+
+#: inc/class-swp-portfolio-init.php:40
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-grid.php:23
+msgid "Grid"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:213
+#: elementor/widgets/class-swp-portfolio-style-grid.php:228
+#: elementor/widgets/class-swp-portfolio-style-grid.php:255
+#: elementor/widgets/class-swp-portfolio-style-grid.php:267
+#: elementor/widgets/class-swp-portfolio-style-grid.php:282
+#: elementor/widgets/class-swp-portfolio-style-grid.php:298
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:218
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:230
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:245
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:261
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:276
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:233
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:245
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:260
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:276
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:291
+#: elementor/widgets/class-swp-portfolio-style-slider.php:217
+#: elementor/widgets/class-swp-portfolio-style-slider.php:244
+#: elementor/widgets/class-swp-portfolio-style-slider.php:256
+#: elementor/widgets/class-swp-portfolio-style-slider.php:271
+#: elementor/widgets/class-swp-portfolio-style-slider.php:287
+#: elementor/widgets/class-swp-portfolio-style-slider.php:302
+#: elementor/widgets/class-swp-portfolio-style-tab.php:191
+#: elementor/widgets/class-swp-portfolio-style-tab.php:215
+#: elementor/widgets/class-swp-portfolio-style-tab.php:227
+#: elementor/widgets/class-swp-portfolio-style-tab.php:242
+#: elementor/widgets/class-swp-portfolio-style-tab.php:258
+#: elementor/widgets/class-swp-portfolio-style-tab.php:273
+msgid "Hide"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:74
+msgid "Hide Category Filter"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-slider.php:449
+msgid "Hover bg Color"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-slider.php:438
+msgid "Hover Color"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/quazisazzad/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://solverwp.com/"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-slider.php:426
+msgid "Icon Background Color"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:438
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:459
+#: elementor/widgets/class-swp-portfolio-style-slider.php:415
+#: elementor/widgets/class-swp-portfolio-style-slider.php:474
+#: elementor/widgets/class-swp-portfolio-style-tab.php:451
+msgid "Icon Color"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:460
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:481
+#: elementor/widgets/class-swp-portfolio-style-slider.php:496
+#: elementor/widgets/class-swp-portfolio-style-tab.php:473
+msgid "Icon Hover Bg Color"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:449
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:470
+#: elementor/widgets/class-swp-portfolio-style-slider.php:485
+#: elementor/widgets/class-swp-portfolio-style-tab.php:462
+msgid "Icon Hover Color"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-grid.php:242
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:208
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:223
+#: elementor/widgets/class-swp-portfolio-style-slider.php:231
+#: elementor/widgets/class-swp-portfolio-style-tab.php:205
+msgid "Icon Settings"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:430
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:451
+#: elementor/widgets/class-swp-portfolio-style-slider.php:463
+#: elementor/widgets/class-swp-portfolio-style-tab.php:443
+msgid "Icon Style"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-grid.php:279
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:242
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:257
+#: elementor/widgets/class-swp-portfolio-style-slider.php:268
+#: elementor/widgets/class-swp-portfolio-style-tab.php:239
+msgid "Image Popup Icon"
+msgstr ""
+
+#: admin/post-meta.php:50
+msgid "Info Details"
+msgstr ""
+
+#: admin/post-meta.php:45
+msgid "Info Type"
+msgstr ""
+
+#: admin/post-meta.php:29
+msgid "Inter youtube video id to open video popup"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:23
+msgid "Isotop"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-grid.php:69
+msgid "layout"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:23
+msgid "Masonry"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-slider.php:407
+msgid "Navigation Button Style"
+msgstr ""
+
+#: admin/class-custom-post-type.php:36
+msgid "New Portfolio"
+msgstr ""
+
+#: admin/class-custom-taxonomy.php:39
+msgid "New portfolio-category Name"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:77
+msgid "No"
+msgstr ""
+
+#: admin/class-custom-post-type.php:43
+msgid "No Portfolio found in Trash."
+msgstr ""
+
+#: admin/class-custom-post-type.php:42
+msgid "No Portfolio found."
+msgstr ""
+
+#: inc/functions.php:40
+msgid "No Post Found"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:143
+#: elementor/widgets/class-swp-portfolio-style-grid.php:158
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:147
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:162
+#: elementor/widgets/class-swp-portfolio-style-slider.php:147
+#: elementor/widgets/class-swp-portfolio-style-tab.php:121
+msgid "Not Display"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:114
+#: elementor/widgets/class-swp-portfolio-style-grid.php:129
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:118
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:130
+#: elementor/widgets/class-swp-portfolio-style-slider.php:118
+#: elementor/widgets/class-swp-portfolio-style-tab.php:92
+msgid "Order"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:99
+#: elementor/widgets/class-swp-portfolio-style-grid.php:114
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:103
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:115
+#: elementor/widgets/class-swp-portfolio-style-slider.php:103
+#: elementor/widgets/class-swp-portfolio-style-tab.php:77
+msgid "Order by"
+msgstr ""
+
+#: admin/class-custom-post-type.php:41
+msgid "Parent : Portfolio"
+msgstr ""
+
+#: admin/class-custom-taxonomy.php:34
+msgid "Parent portfolio-category"
+msgstr ""
+
+#: admin/class-custom-taxonomy.php:35
+msgid "Parent portfolio-category:"
+msgstr ""
+
+#: elementor/swp-portfolio-elementor-widgets-init.php:202
+msgid "PHP"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-tab.php:608
+msgid "Please Select A Category"
+msgstr ""
+
+#: admin/class-custom-post-type.php:32 admin/class-custom-post-type.php:33
+#: elementor/swp-portfolio-elementor-widgets-init.php:220
+msgid "Portfolio"
+msgstr ""
+
+#. Name of the plugin
+msgid "Portfolio Builder"
+msgstr ""
+
+#: admin/post-meta.php:76
+msgid "Portfolio Details Page Slider Image"
+msgstr ""
+
+#: admin/class-custom-post-type.php:45
+msgid "Portfolio Image"
+msgstr ""
+
+#: admin/post-meta.php:13 admin/post-meta.php:40
+msgid "Portfolio Info"
+msgstr ""
+
+#: admin/post-meta.php:34
+#: elementor/widgets/class-swp-portfolio-style-generel.php:183
+#: elementor/widgets/class-swp-portfolio-style-grid.php:198
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:187
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:202
+#: elementor/widgets/class-swp-portfolio-style-slider.php:187
+#: elementor/widgets/class-swp-portfolio-style-tab.php:161
+msgid "Portfolio Url"
+msgstr ""
+
+#: admin/class-custom-taxonomy.php:40
+msgid "portfolio-category"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:72
+#: elementor/widgets/class-swp-portfolio-style-grid.php:87
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:76
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:88
+#: elementor/widgets/class-swp-portfolio-style-slider.php:76
+msgid "Post Filter"
+msgstr ""
+
+#: admin/class-custom-post-type.php:30
+msgctxt "Post Type General Name"
+msgid "Portfolio"
+msgstr ""
+
+#: admin/class-custom-post-type.php:31
+msgctxt "Post Type Singular Name"
+msgid "Portfolio"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:105
+#: elementor/widgets/class-swp-portfolio-style-grid.php:120
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:109
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:121
+#: elementor/widgets/class-swp-portfolio-style-slider.php:109
+#: elementor/widgets/class-swp-portfolio-style-tab.php:83
+msgid "Random"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:498
+#: elementor/widgets/class-swp-portfolio-style-generel.php:500
+#: elementor/widgets/class-swp-portfolio-style-generel.php:564
+#: elementor/widgets/class-swp-portfolio-style-generel.php:566
+msgid "Read More"
+msgstr ""
+
+#: admin/class-custom-post-type.php:51
+msgid "Remove Portfolio image"
+msgstr ""
+
+#: admin/class-custom-post-type.php:40
+msgid "Search Portfolio"
+msgstr ""
+
+#: admin/class-custom-taxonomy.php:32
+msgid "Search portfolio-categories"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:79
+#: elementor/widgets/class-swp-portfolio-style-grid.php:94
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:83
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:95
+#: elementor/widgets/class-swp-portfolio-style-slider.php:83
+#: elementor/widgets/class-swp-portfolio-style-tab.php:66
+msgid "Select Category"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:81
+#: elementor/widgets/class-swp-portfolio-style-grid.php:96
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:85
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:97
+#: elementor/widgets/class-swp-portfolio-style-slider.php:85
+#: elementor/widgets/class-swp-portfolio-style-tab.php:68
+msgid "Select Category To display Filter Option"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:56
+#: elementor/widgets/class-swp-portfolio-style-grid.php:56
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:56
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:56
+#: elementor/widgets/class-swp-portfolio-style-slider.php:56
+msgid "Select Style"
+msgstr ""
+
+#: admin/class-custom-post-type.php:48
+msgid "Set Portfolio image"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:212
+#: elementor/widgets/class-swp-portfolio-style-grid.php:227
+#: elementor/widgets/class-swp-portfolio-style-grid.php:254
+#: elementor/widgets/class-swp-portfolio-style-grid.php:266
+#: elementor/widgets/class-swp-portfolio-style-grid.php:281
+#: elementor/widgets/class-swp-portfolio-style-grid.php:297
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:217
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:229
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:244
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:260
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:275
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:232
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:244
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:259
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:275
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:290
+#: elementor/widgets/class-swp-portfolio-style-slider.php:216
+#: elementor/widgets/class-swp-portfolio-style-slider.php:243
+#: elementor/widgets/class-swp-portfolio-style-slider.php:255
+#: elementor/widgets/class-swp-portfolio-style-slider.php:270
+#: elementor/widgets/class-swp-portfolio-style-slider.php:286
+#: elementor/widgets/class-swp-portfolio-style-slider.php:301
+#: elementor/widgets/class-swp-portfolio-style-tab.php:190
+#: elementor/widgets/class-swp-portfolio-style-tab.php:214
+#: elementor/widgets/class-swp-portfolio-style-tab.php:226
+#: elementor/widgets/class-swp-portfolio-style-tab.php:241
+#: elementor/widgets/class-swp-portfolio-style-tab.php:257
+#: elementor/widgets/class-swp-portfolio-style-tab.php:272
+msgid "Show"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-slider.php:23
+msgid "Slider"
+msgstr ""
+
+#: admin/post-meta.php:63
+msgid "Social Icon"
+msgstr ""
+
+#: admin/post-meta.php:58
+msgid "Social Profile"
+msgstr ""
+
+#: admin/post-meta.php:68
+msgid "Social Profile Url"
+msgstr ""
+
+#. Author of the plugin
+msgid "SolverWP"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:59
+#: elementor/widgets/class-swp-portfolio-style-grid.php:59
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:59
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:59
+#: elementor/widgets/class-swp-portfolio-style-slider.php:59
+msgid "Style 1"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:60
+#: elementor/widgets/class-swp-portfolio-style-grid.php:60
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:60
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:60
+#: elementor/widgets/class-swp-portfolio-style-slider.php:60
+msgid "Style 2"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:61
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:61
+#: elementor/widgets/class-swp-portfolio-style-slider.php:61
+msgid "Style 3"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:62
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:62
+#: elementor/widgets/class-swp-portfolio-style-slider.php:62
+msgid "Style 4"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:63
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:63
+#: elementor/widgets/class-swp-portfolio-style-slider.php:63
+msgid "Style 5"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-slider.php:64
+msgid "Style 6"
+msgstr ""
+
+#: admin/post-meta.php:22
+msgid "Sub Title"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:285
+#: elementor/widgets/class-swp-portfolio-style-grid.php:362
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:341
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:362
+#: elementor/widgets/class-swp-portfolio-style-slider.php:375
+#: elementor/widgets/class-swp-portfolio-style-tab.php:346
+msgid "Sub Title Color"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:297
+msgid "Sub Title Hover Color"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:203
+#: elementor/widgets/class-swp-portfolio-style-grid.php:218
+#: elementor/widgets/class-swp-portfolio-style-slider.php:207
+#: elementor/widgets/class-swp-portfolio-style-tab.php:181
+msgid "Sub Title Settings"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:277
+#: elementor/widgets/class-swp-portfolio-style-grid.php:354
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:333
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:351
+#: elementor/widgets/class-swp-portfolio-style-slider.php:367
+#: elementor/widgets/class-swp-portfolio-style-tab.php:338
+msgid "Sub Title Style"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:311
+#: elementor/widgets/class-swp-portfolio-style-grid.php:375
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:354
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:375
+#: elementor/widgets/class-swp-portfolio-style-slider.php:388
+#: elementor/widgets/class-swp-portfolio-style-tab.php:359
+msgid "Sub Title Typography"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-tab.php:23
+msgid "Tab"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-tab.php:378
+msgid "Tab Button Style"
+msgstr ""
+
+#: admin/class-custom-taxonomy.php:30
+msgctxt "taxonomy general name"
+msgid "portfolio-categories"
+msgstr ""
+
+#: admin/class-custom-taxonomy.php:31
+msgctxt "taxonomy singular name"
+msgid "portfolio-category"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:103
+#: elementor/widgets/class-swp-portfolio-style-grid.php:118
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:107
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:119
+#: elementor/widgets/class-swp-portfolio-style-slider.php:107
+#: elementor/widgets/class-swp-portfolio-style-tab.php:81
+msgid "Title"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:233
+#: elementor/widgets/class-swp-portfolio-style-grid.php:320
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:299
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:317
+#: elementor/widgets/class-swp-portfolio-style-slider.php:325
+#: elementor/widgets/class-swp-portfolio-style-tab.php:296
+msgid "Title Color"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:152
+#: elementor/widgets/class-swp-portfolio-style-grid.php:167
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:156
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:171
+#: elementor/widgets/class-swp-portfolio-style-slider.php:156
+#: elementor/widgets/class-swp-portfolio-style-tab.php:130
+msgid "Title Excerpt Length"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:245
+#: elementor/widgets/class-swp-portfolio-style-grid.php:331
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:310
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:328
+#: elementor/widgets/class-swp-portfolio-style-slider.php:336
+#: elementor/widgets/class-swp-portfolio-style-tab.php:307
+msgid "Title Hover Color"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:132
+#: elementor/widgets/class-swp-portfolio-style-grid.php:147
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:136
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:148
+#: elementor/widgets/class-swp-portfolio-style-slider.php:136
+#: elementor/widgets/class-swp-portfolio-style-tab.php:110
+msgid "Title Settings"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:225
+#: elementor/widgets/class-swp-portfolio-style-grid.php:312
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:291
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:306
+#: elementor/widgets/class-swp-portfolio-style-slider.php:317
+#: elementor/widgets/class-swp-portfolio-style-tab.php:288
+msgid "Title Style"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:163
+#: elementor/widgets/class-swp-portfolio-style-grid.php:178
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:167
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:182
+#: elementor/widgets/class-swp-portfolio-style-slider.php:167
+#: elementor/widgets/class-swp-portfolio-style-tab.php:141
+msgid "Title Tag"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:259
+#: elementor/widgets/class-swp-portfolio-style-grid.php:344
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:323
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:341
+#: elementor/widgets/class-swp-portfolio-style-slider.php:349
+#: elementor/widgets/class-swp-portfolio-style-tab.php:320
+msgid "Title Typography"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:273
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:288
+#: elementor/widgets/class-swp-portfolio-style-slider.php:299
+#: elementor/widgets/class-swp-portfolio-style-tab.php:270
+msgid "Title Url Icon"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-generel.php:390
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:420
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:441
+#: elementor/widgets/class-swp-portfolio-style-tab.php:433
+msgid "Typography"
+msgstr ""
+
+#: admin/class-custom-taxonomy.php:37
+msgid "Update portfolio-category"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-grid.php:295
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:258
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:273
+#: elementor/widgets/class-swp-portfolio-style-slider.php:284
+#: elementor/widgets/class-swp-portfolio-style-tab.php:255
+msgid "Url Icon"
+msgstr ""
+
+#: admin/class-custom-post-type.php:54
+msgid "Use as Portfolio image"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-grid.php:264
+#: elementor/widgets/class-swp-portfolio-style-isotop.php:227
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:242
+#: elementor/widgets/class-swp-portfolio-style-slider.php:253
+#: elementor/widgets/class-swp-portfolio-style-tab.php:224
+msgid "Video Icon"
+msgstr ""
+
+#: admin/post-meta.php:28
+msgid "Video Id"
+msgstr ""
+
+#: admin/class-custom-post-type.php:38
+msgid "View Portfolio"
+msgstr ""
+
+#: admin/post-meta.php:23
+msgid "Write Portfolio Sub Title"
+msgstr ""
+
+#: elementor/widgets/class-swp-portfolio-style-masonry.php:76
+msgid "Yes"
+msgstr ""
+
+#: admin/post-meta.php:35
+msgid "You can add external link for your portfolio"
+msgstr ""

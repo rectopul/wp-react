@@ -1,0 +1,109 @@
+body
+    .page 
+        &.type-page
+            .properties
+                .container
+                    @media screen and (max-width 573px)
+                        padding-left 0
+                        padding-right 0
+    .wrapper 
+        .woocommerce
+            .title__page,
+            .comment-reply-title
+                @media screen and (max-width 573px)
+                    font-size: 18px !important
+                    color: #2a2a2a;
+                    font-family: "Poppins",sans-serif;
+                    font-weight: 700;
+                    margin-bottom: 10px;
+            .title__page,
+            .comentarios__forma
+                @media screen and (max-width 573px)
+                    padding-left 15px
+                    padding-right 15px
+
+                    .form-submit
+                        #submit
+                            width 100%
+
+                    .comment-form-comment
+                        display flex
+                        flex-direction column
+
+                        
+
+                    form 
+                        textarea
+                            font-family: "Poppins",sans-serif !important
+                            color: #646D77 !important
+                            font-size: 14px !important
+                            margin-bottom: 15px
+                            font-weight: normal !important
+                            line-height: 1.4 !important
+                        p 
+                            font-size: 14px;
+                            color: #2a2a2a;
+                            font-family: "Poppins",sans-serif;
+                            margin-bottom: 8px;
+                            font-weight: 500;
+                            margin-bottom: 10px;
+
+                            a
+                                font-size: 18px;
+
+    .woocommerce 
+        .related 
+            &.products
+                @media screen and (max-width 573px)
+                    padding 0 15px
+        ul.products[class*=columns-] 
+            @media screen and (max-width 573px)
+                display flex
+                flex-wrap wrap
+                justify-content space-between
+                &:before,
+                &:after
+                    content none
+                li
+                    width initial !important
+                    flex 0 0 calc(48% - 26px) !important
+                    margin 0 !important
+                    margin-bottom 20px !important
+                    display flex
+                    flex-direction column
+
+                    .add_to_cart_button
+                        padding 17px 30px
+                        font-size 14px
+        div.product 
+            div.summary,
+            .woocommerce-tabs
+                @media screen and (max-width 573px)
+                    padding-left 15px
+                    padding-right 15px
+
+                    ul.tabs 
+                        li 
+                            a
+                                padding 0 20px  !important
+
+    .visit-tailor-area 
+        .tailor-offers
+            @media screen and (max-width 573px)
+                background-size auto 100% !important
+.new-arrival 
+    .tab-content
+        width 100%
+    .tab-pane
+        width 100%	
+        @media screen and (max-width 573px)
+            padding-left 10px
+            padding-right 10px
+    .single-new-arrival 
+        .popular-caption 
+            h3 
+                a
+                    @media screen and (max-width 573px)
+                        font-size 16px
+                        line-height 1
+                        text-transform capitalize

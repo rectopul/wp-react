@@ -1,0 +1,1 @@
+[28-Apr-2022 17:43:41 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/metrocom/public_html/wp-content/themes/twentynineteen/index.php on line 17

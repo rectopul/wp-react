@@ -1,0 +1,115 @@
+.wrapper
+    h1.single__title
+        display none
+
+.woocommerce 
+
+    
+
+    .woocommerce-Tabs-panel--description
+        font-family: "Poppins",sans-serif;
+        color: #646D77;
+        font-size: 14px;
+        line-height: 30px;
+        margin-bottom: 15px;
+        font-weight: normal;
+        line-height: 1.4;
+
+    .summary
+        .product_meta
+            display flex
+            flex-direction column
+
+            span
+                color #555
+                font-size: 14px;
+                font-family: "Poppins",sans-serif;
+                font-weight: normal;
+
+                span
+                    color #FD8F5F
+                    font-size: 14px;
+                    font-family: "Poppins",sans-serif;
+                    font-weight: normal;
+
+
+    div.product 
+        .woocommerce-product-details__short-description
+            display none
+
+        form.cart
+            display flex
+            flex-direction column
+            max-width 200px
+
+        .quantity
+            border: 1px solid #ddd;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            padding: 12px 15px;
+            width 132px
+            max-width 132px
+            margin-bottom 20px !important
+
+            input
+                border 0
+                outline 0
+                border: 0px solid transparent;
+
+        .single_add_to_cart_button
+            background: #FD8F5F
+            background-color #FD8F5F
+            text-transform: uppercase;
+            padding: 27px 44px;
+            color: #fff;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 15px;
+            display: inline-block;
+            line-height: 1;
+            -moz-user-select: none;
+            letter-spacing: 1px;
+            line-height: 0;
+            margin-bottom: 0;
+            cursor: pointer;
+            transition: color 0.4s linear;
+            position: relative;
+            z-index: 1;
+            border: 0;
+            overflow: hidden;
+            margin: 0;
+            border-radius: 0px;
+
+            &:hover
+                background: #e9855a;
+                &:before
+                    transform: scaleX(1);
+                    color: #fff !important;
+                    z-index: -1;
+
+            &:before
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 101%;
+                height: 101%;
+                background: #e9855a;
+                z-index: 1;
+                border-radius: 0px;
+                transition: transform 0.5s;
+                transition-timing-function: ease;
+                transform-origin: 0 0;
+                transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+                transform: scaleX(0);
+                border-radius: 0px;
+        .woocommerce-product-gallery--columns-4 
+            .flex-control-thumbs
+                display flex
+
+                li
+                    margin-right 5px !important
+                    margin-top 10px !important
+                    overflow hidden
+                    border-radius 4px

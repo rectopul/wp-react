@@ -1,0 +1,228 @@
+@keyframes slide
+    100%
+        right 0px
+
+@keyframes slide-out
+    100%
+        right -400px
+
+body
+    .woocommerce div.product p.price ins, .woocommerce div.product span.price ins
+        text-decoration none
+    .slider-area
+        margin-bottom 30px
+    .woocommerce 
+        table.shop_table 
+            a.remove
+                font-size 0
+                display flex
+                background-color transparent
+                padding 7px 5px    
+                width 40px
+                height 40px
+                border-radius 200px
+                border 1px solid rgba(0,0,0,0.1)
+                justify-content center
+                align-items: center
+                transition all .5s linear
+
+                &:hover
+                    background-color #ff0080
+                    &:before
+                        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-trash-2'%3E%3Cpath d='M3 6h18'/%3E%3Cpath d='M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6'/%3E%3Cpath d='M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2'/%3E%3Cline x1='10' x2='10' y1='11' y2='17'/%3E%3Cline x1='14' x2='14' y1='11' y2='17'/%3E%3C/svg%3E");
+
+                &:before
+                    content ''
+                    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23ff0080' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-trash-2'%3E%3Cpath d='M3 6h18'/%3E%3Cpath d='M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6'/%3E%3Cpath d='M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2'/%3E%3Cline x1='10' x2='10' y1='11' y2='17'/%3E%3Cline x1='14' x2='14' y1='11' y2='17'/%3E%3C/svg%3E");
+                    width 20px
+                    height 20px
+                    background-position center
+                    background-size cover
+                    display flex
+                    margin 0
+                    transition all .5s linear
+    .cart_summary
+        width 100%
+        max-width 380px
+        position fixed
+        right -400px
+        top 0
+        height 100vh
+        z-index 99999999
+        display none
+        background #fff
+        border 1px solid rgba(0,0,0,.1)
+        border-top 0
+        padding 0 10px
+        animation slide-out .7s forwards
+        transition all .7 forwards
+
+        > div
+            flex-direction column !important
+            justify-content space-between
+
+            > div
+                flex 0 0 218px !important
+
+                &:first-child
+                    flex 1 !important
+                    overflow hidden
+
+                .card
+                    height 100%
+                    display flex
+                    flex-direction column
+                    overflow hidden
+
+                    .card-header
+                        flex 0 0 51px
+
+                    .card-body
+                        flex 1
+                        height 100%
+                        overflow hidden
+                        width 100%  
+                
+
+        .quantities
+            padding-left 0 !important
+
+        &.open
+            display flex
+            animation slide .7s forwards
+            transition all .7 forwards
+
+        .btn-gotocheckout
+            background var(--default_bg) !important
+
+        .card
+            border 0
+
+        .cart-items
+            border 0 !important
+            hr
+                &:last-of-type
+                    display none
+
+        .prices
+            &, & strong
+                font-weight 700
+                color: #ff0080
+                font-size 17px
+                font-family var(--default-font)
+
+
+        .card-header
+            background transparent
+            font-family: "Poppins",sans-serif
+            text-transform uppercase
+            border 0
+            font-weight 700
+            display flex
+            justify-content space-between
+            align-items center
+            border-bottom 1px solid rgba(0,0,0,.12)
+
+            h3
+                color #000
+                font-family var(--default-font)
+                font-weight 700
+                text-transform lowercase
+                font-size 20px
+
+            span
+                border-radius 20px
+                cursor pointer
+
+                width 30px
+                height 30px
+                display flex
+                justify-content center
+                align-items center
+
+                svg
+                    stroke #000
+                &:hover
+                    background-color var(--default_bg)
+
+                    svg
+                        stroke #fff
+
+        .cart_item_title
+            font-family: var(--default-font)
+            font-weight: 700;
+            text-transform capitalize
+            font-style: normal;
+            font-size: 12px;
+
+            position relative
+            display flex
+            
+        .remove_item_cart
+            width 15px
+            height 15px
+            padding 2px   
+            cursor pointer
+            margin 0
+            display flex
+            border 1px solid var(--default_bg)
+            border-radius 20px
+            background transparent
+            background var(--default_bg)
+
+            i
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-x'%3E%3Cpath d='M18 6 6 18'/%3E%3Cpath d='m6 6 12 12'/%3E%3C/svg%3E");
+                display flex
+                width 100%
+                height 100%
+                background-repeat no-repeat
+                background-position center
+                background-size cover
+
+            &:hover
+                background transparent
+                border-color var(--default_bg)
+
+                i
+                    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23ff0080' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-x'%3E%3Cpath d='M18 6 6 18'/%3E%3Cpath d='m6 6 12 12'/%3E%3C/svg%3E");
+
+        .cart-item
+            .bg-image
+                img
+                    height auto
+
+        .quantity-container
+            max-width 90px
+            input
+                appearance: none
+                border-radius 0
+                height 35px
+                border 0
+                border-left-width 0
+                border-right-width 0
+                text-align: center
+                padding 0
+                font-family: var(--default-font)
+                font-weight 700
+                line-height 1
+                color: #646d77
+                font-size: 16px
+                color var(--default_bg)
+
+        .btn-item
+            padding 10px 15px !important
+            text-align: center
+            margin 0
+            background var(--default_bg)
+            border-radius 20px
+            width 30px
+            height 30px
+            display flex
+            justify-content center
+            align-items center
+
+            i
+                display: flex
+                margin 0 auto
+                justify-content: center
+                align-items: center

@@ -1,0 +1,304 @@
+.info-bar
+    background var(--color_default)
+    color #fff
+    display flex
+    justify-content: center
+    align-items center
+    font-size 14px
+    font-weight 400
+    padding 10px 0
+
+    a
+        text-decoration underline !important
+
+.new-arrival
+
+    .product-lists
+        display flex
+        width 100%
+        position relative
+
+        .button_payment
+            display flex
+            justify-content space-between
+            margin-top 15px
+            width 100%  
+            button
+                height 43px
+                border-width 2px
+                border-radius 8px
+                border-style solid
+                cursor pointer
+
+                &.add_to_cart
+                    width 58px  
+                    background-color #fff
+                    color var(--default_bg)
+                    border 2px solid #ff0080
+                    font-weight: 700;
+                    font-size: 14px
+                    display flex
+                    justify-content space-between
+                    align-items center
+                    padding 12px
+                    margin 0
+
+                    &:hover
+                        background-color var(--default_bg)
+                        border-color var(--default_bg)
+                        color #fff
+
+                        i
+                            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 15 15' fill='none'%3E%3Cpath d='M12.4362 9.75792H4.44015L4.2233 8.62854H12.4723C12.7324 8.62926 12.9846 8.53951 13.1857 8.37466C13.3868 8.20982 13.5243 7.98015 13.5746 7.72503L14.3336 4.11099C14.3685 3.94662 14.3664 3.77652 14.3272 3.61309C14.2881 3.44966 14.213 3.29702 14.1074 3.16631C14.0018 3.03559 13.8683 2.93009 13.7167 2.8575C13.5652 2.78491 13.3993 2.74705 13.2313 2.74669H3.08488L2.88611 1.62634H0.826111V2.75573H1.9555L3.31076 9.83924C2.91714 9.93225 2.56611 10.1546 2.31384 10.4708C2.06158 10.7869 1.92267 11.1786 1.91936 11.583C1.94051 12.0807 2.1575 12.5499 2.52304 12.8884C2.88858 13.2269 3.37306 13.4072 3.87094 13.39C4.36484 13.4023 4.84371 13.2195 5.20388 12.8813C5.56405 12.5431 5.77656 12.0767 5.79541 11.583C5.79374 11.3438 5.7446 11.1074 5.65085 10.8873H10.6111C10.5174 11.1074 10.4682 11.3438 10.4665 11.583C10.4877 12.0807 10.7047 12.5499 11.0702 12.8884C11.4358 13.2269 11.9202 13.4072 12.4181 13.39C12.8974 13.39 13.357 13.1996 13.6959 12.8608C14.0348 12.5219 14.2251 12.0623 14.2251 11.583C14.2251 11.1038 14.0348 10.6441 13.6959 10.3053C13.357 9.96638 12.8974 9.77599 12.4181 9.77599L12.4362 9.75792ZM13.2313 3.90319L12.4723 7.51722H3.98839L3.3198 3.90319H13.2313ZM3.87094 12.2787C3.67609 12.2842 3.48646 12.2153 3.3405 12.0861C3.19453 11.9569 3.10315 11.7771 3.08488 11.583C3.10328 11.3824 3.19978 11.197 3.35358 11.0669C3.50739 10.9367 3.70617 10.8722 3.90708 10.8873C4.10703 10.8723 4.30478 10.9371 4.45714 11.0674C4.6095 11.1978 4.70408 11.3832 4.72023 11.583C4.71245 11.6853 4.68399 11.785 4.63658 11.876C4.58917 11.9671 4.5238 12.0475 4.44441 12.1125C4.36502 12.1776 4.27327 12.2258 4.1747 12.2544C4.07613 12.2829 3.97279 12.2912 3.87094 12.2787ZM12.4362 12.2787C12.2353 12.2938 12.0365 12.2293 11.8827 12.0991C11.7289 11.969 11.6324 11.7836 11.614 11.583C11.649 11.3917 11.75 11.2186 11.8994 11.0941C12.0488 10.9695 12.2372 10.9013 12.4317 10.9013C12.6262 10.9013 12.8146 10.9695 12.964 11.0941C13.1134 11.2186 13.2144 11.3917 13.2494 11.583C13.231 11.782 13.1357 11.9659 12.9839 12.0958C12.8321 12.2257 12.6356 12.2913 12.4362 12.2787Z' fill='white'/%3E%3C/svg%3E");
+
+                    i
+                        width 15px
+                        display flex
+                        margin-left 7px
+                        margin 0
+                        height 15px
+                        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 36 36' fill='none'%3E%3Cpath d='M30.063 23.6011H10.1505L9.61051 20.7886H30.153C30.8006 20.7904 31.4286 20.5669 31.9294 20.1564C32.4303 19.7459 32.7727 19.1739 32.898 18.5386L34.788 9.5386C34.8751 9.12927 34.8697 8.70566 34.7722 8.29868C34.6748 7.89169 34.4877 7.51158 34.2247 7.18606C33.9617 6.86054 33.6294 6.59782 33.2519 6.41704C32.8745 6.23627 32.4615 6.142 32.043 6.1411H6.77551L6.28051 3.3511H1.15051V6.1636H3.96301L7.33801 23.8036C6.35779 24.0352 5.48361 24.589 4.8554 25.3763C4.22719 26.1636 3.88127 27.1389 3.87301 28.1461C3.9257 29.3856 4.46605 30.554 5.37635 31.3969C6.28666 32.2398 7.49315 32.6888 8.73301 32.6461C9.96299 32.6766 11.1555 32.2215 12.0524 31.3793C12.9494 30.5371 13.4786 29.3756 13.5255 28.1461C13.5214 27.5505 13.399 26.9616 13.1655 26.4136H25.518C25.2845 26.9616 25.1622 27.5505 25.158 28.1461C25.2107 29.3856 25.7511 30.554 26.6614 31.3969C27.5717 32.2398 28.7782 32.6888 30.018 32.6461C31.2115 32.6461 32.3561 32.172 33.2 31.3281C34.0439 30.4842 34.518 29.3396 34.518 28.1461C34.518 26.9526 34.0439 25.808 33.2 24.9641C32.3561 24.1202 31.2115 23.6461 30.018 23.6461L30.063 23.6011ZM32.043 9.0211L30.153 18.0211H9.02551L7.36051 9.0211H32.043ZM8.73301 29.8786C8.24779 29.8922 7.77556 29.7207 7.41207 29.399C7.04857 29.0773 6.82101 28.6294 6.77551 28.1461C6.82133 27.6465 7.06165 27.1849 7.44466 26.8608C7.82767 26.5367 8.32269 26.3761 8.82301 26.4136C9.32095 26.3763 9.81341 26.5376 10.1928 26.8622C10.5723 27.1868 10.8078 27.6484 10.848 28.1461C10.8286 28.4009 10.7578 28.6492 10.6397 28.8758C10.5216 29.1025 10.3588 29.3028 10.1611 29.4648C9.96343 29.6267 9.73494 29.7469 9.48947 29.818C9.24401 29.8892 8.98667 29.9098 8.73301 29.8786ZM30.063 29.8786C29.5627 29.9161 29.0677 29.7555 28.6847 29.4314C28.3016 29.1073 28.0613 28.6457 28.0155 28.1461C28.1026 27.6696 28.3541 27.2387 28.7262 26.9285C29.0983 26.6183 29.5673 26.4484 30.0518 26.4484C30.5362 26.4484 31.0053 26.6183 31.3773 26.9285C31.7494 27.2387 32.0009 27.6696 32.088 28.1461C32.0422 28.6416 31.805 29.0997 31.427 29.4231C31.0489 29.7466 30.5596 29.91 30.063 29.8786Z' fill='%23FF0080'/%3E%3C/svg%3E")
+                        background-size cover
+                        background-repeat no-repeat
+
+                &.buy
+                    background-color var(--default_bg)
+                    border-color #fff
+                    width 100%
+                    max-width 232px
+                    display flex
+                    align-items center
+                    justify-content center
+                    font-weight: 700
+                    font-size: 14px
+                    line-height: 32px
+
+                    &:hover
+                        background-color #fff
+                        color var(--default_bg)
+                        border-color var(--default_bg)
+
+
+        .single-new-arrival 
+            font-family: Montserrat
+            .popular-caption 
+                min-height 301px
+                display flex
+                flex-direction column
+                justify-content space-between
+                @media screen and (max-width 600px)
+                    padding 5px 10px
+                .regular_price
+                    font-weight: 700
+                    font-size: 14px
+                    line-height: 20px
+                    color: #8d8d8d
+                    text-decoration: line-through
+                    text-align left
+
+                    
+                .sale_price
+                    font-size: 18px
+                    font-weight: 700
+                    line-height: 28px
+                    color: #000
+                    text-align left
+
+                    display flex
+                    align-items center
+
+                    bdi
+                        display flex
+                        &, .woocommerce-Price-currencySymbol
+                            font-size: 18px
+                            font-weight: 700
+                            color: #000
+
+                .installment
+                    color: #000
+                    font-size: 14px
+                    line-height: 20px
+                    margin-left 7px
+                    font-weight 400
+                h3 
+                    a
+                        font-weight: 700
+                        font-size: 20px
+                        line-height: 24px
+                        color: #000
+                        font-family var(--default-font)
+                        text-decoration none
+
+                        &:hover
+                            text-decoration underline !important
+
+                        @media screen and (max-width 1400px)
+                            font-size: 16px
+                            letter-spacing -1px
+
+                        @media screen and (max-width 600px)
+                            font-size 16px
+                            text-align left
+                            margin-bottom 0
+                p
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px
+                    height 50px
+                    color: #000;
+                    padding: 4px 0;
+                    text-align left
+
+                    @media screen and (max-width 600px)
+                        height 65px
+
+        .single-new-arrival
+                border 0
+
+            .popular-caption 
+                h3 
+                    a
+                        font-weight: 700
+                        font-size: 20px
+                        line-height: 24px
+                        color: #000
+
+        .popular-img
+            border-radius 25px
+        .slick-arrow
+            position absolute
+            top 50%
+            left -55px
+            width 55px
+            height 55px
+            margin-top -22.5
+            z-index 10
+            border 0
+            background #ff0080
+            border-radius 50px
+            font-size 0
+
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-chevron-left'%3E%3Cpolyline points='15 18 9 12 15 6'/%3E%3C/svg%3E");
+            background-size 80%
+            background-position center center
+            background-repeat no-repeat
+
+            &.slick-next
+                left auto
+                right -55px
+                transform rotate(-180deg)
+
+        .product-item
+            margin 0 20px
+
+            @media screen and (max-width 600px)
+                margin 0 4px
+
+.header-sticky.sticky-bar
+    background rgba(240,240,240,0.8)
+
+.properties 
+    .nav-tabs::before
+        content none
+
+.section-tittle 
+    h2
+        color var(--default_bg)
+        text-transform initial
+        font-weight 700
+        font-size 48px
+        font-family var(--default-font)
+
+.container-slide
+    width 100%
+    margin 0 auto
+    max-width 1500px
+    max-height 499px
+    overflow hidden
+    img
+        width 100%
+
+    .single-slider
+        background-size 100%
+        background-position top center
+.header-area
+    background #f7f7f7
+    font-family var(--default-font)
+
+    .card-stor
+        span
+            background var(--default_bg)
+            width 20px
+            height 20px
+            font-family var(--default-font)
+            font-weight 400
+            font-size 12px
+            bottom initial
+            top -10px
+            left 15px
+
+    .account-btn
+        width 20px
+        height 20px
+        display flex
+        padding 0
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23ff0080' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-user-circle-2'%3E%3Cpath d='M18 20a6 6 0 0 0-12 0'/%3E%3Ccircle cx='12' cy='10' r='4'/%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3C/svg%3E");
+        background-size cover
+        font-size 0
+        margin 0 20px
+
+    .search
+        ul
+            li
+                form
+                    background-color #fff
+                    border-radius 12px
+                    padding 0 12px
+                    display flex
+                    justify-content space-between
+                    max-width 215px
+
+                    .search-icon
+                        position relative
+                        display flex
+                        justify-content: center
+                        align-items: center
+                        top: initial
+                        transform: initial
+
+                        i
+                            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23ff0080' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-search'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='m21 21-4.3-4.3'/%3E%3C/svg%3E");
+                            width 16px
+                            height 16px
+                            background-size cover
+                            display flex
+                            margin-right 15px
+                            &:before
+                                content: none
+
+
+                    input
+                        border 0
+                        border-bottom initial
+
+                        &, &::placeholder
+                            font-size 12px
+                            font-family var(--default-font)
+                            color #000
+                            font-weight 400
+
+    #navigation
+        li
+            a
+                font-family var(--default-font)
+                font-weight 400
+                font-size 16px
+                text-transform lowercase
+
+    .menu-wrapper 
+        .logo
+            display flex
+            position relative
+        

@@ -1,0 +1,1133 @@
+a:focus,
+a:hover, 
+.portfolio-cat a:hover, 
+.footer -menu li a:hover
+    text-decoration none !important
+
+:root
+    --default_bg: #ff0080
+    --default_bg_text: #000
+    --default_text_shadow #F2F2F2
+    --default-font: 'Montserrat', sans-serif;
+
+body
+    #scrollUp, #back-top
+        background var(--default_bg)
+    .footer-bottom-area 
+        .footer-copy-right 
+            p
+                color #fff !important
+                i, a
+                    color #fff !important
+    .footer-area,
+    .footer-bottom-area
+        background var(--default_bg)
+
+        ul 
+            li 
+                a
+                    color #fff !important
+    @media (min-width: 1500px)
+        .container
+            max-width: 1500px
+    .site-main
+        @media screen and (max-width 600px)
+            padding-left 15px
+            padding-right 15px
+    #billing_state
+        display block !important
+
+    .nice-select.state_select
+        display none !important
+
+    .cart_totals 
+        p
+            .woocommerce-shipping-destination
+                display none !important
+
+.custom-logo-link
+    img
+        max-width 192px !important
+        height auto !important
+
+.logo2
+    img
+        max-width 77px !important
+
+.page 
+    .entry-header
+        width 100%
+        max-width 1520px
+        height: 130px
+        text-align center
+        display flex
+        justify-content center
+        align-items center
+        color #fff
+        background-color var(--default_bg)
+
+        h1
+            color #fff
+            
+
+    .woocommerce-result-count,
+    .woocommerce-ordering
+        display none
+
+.post-7
+    .entry-header
+        display none
+        
+.woocommerce-MyAccount-navigation,
+.woocommerce-MyAccount-content,
+.entry-header
+    margin 50px auto
+    ul
+        display flex
+        border-bottom 1px solid #ccc
+        padding 15px 0
+        font-family: "Poppins",sans-serif;
+        font-size: 16px;
+        li
+            margin 0 10px
+    a
+        color var(--default_bg)
+        font-size: 16px;
+        border-radius: 0px;
+        margin-top 20px
+        font-family: "Poppins",sans-serif;
+
+        &:hover
+            color #000
+
+    @media (min-width: 1200px)
+        max-width: 1200px;
+
+.woocommerce-EditAccountForm
+    .woocommerce-Input
+        border-radius 0 !important
+        border 1px solid #C9C9C9
+        height: 50px;
+        padding: 0 25px;
+    .wp-element-button
+        background: var(--default_bg) !important;
+        max-width 200px
+        height: 60px;
+        padding: 10px 43px;
+        border: 0;
+        color: #fff !important;
+        text-transform: capitalize;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 0px !important;
+        margin-top 20px
+        font-family: "Poppins",sans-serif !important;
+        font-weight: normal !important;
+
+#customer_login
+    margin 0 auto !important
+    display flex
+
+    > div
+        flex 0 0 50%
+        max-width initial
+
+    .woocommerce-form
+        box-shadow: 0px 10px 30px 0px rgba(13,12,13,0.2)
+        border-radius 0
+        border 0
+
+        .woocommerce-button.button
+            background: var(--default_bg)
+            max-width 200px
+            height: 60px;
+            padding: 10px 43px;
+            border: 0;
+            color: #fff;
+            text-transform: capitalize;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 0px;
+            margin-top 20px
+            font-family: "Poppins",sans-serif;
+            font-weight: normal;
+
+        p
+            display flex
+            flex-direction column
+
+            label
+                display flex
+                align-item center
+                input
+                    width 30px
+                    height 30px
+                    margin 0 !important
+                    padding 0
+                    border-radius 0
+                    margin-right 10px !important
+
+            input
+                border: 1px solid #C9C9C9;
+                width: 100%;
+                height: 50px;
+                margin-bottom: 20px;
+                padding: 0 25px;
+                color: #000;
+    @media (min-width: 1200px)
+        max-width: 1200px;
+
+.woocommerce 
+    
+    #pix-por-piggly 
+        .pix-por-piggly--or 
+            span
+                background-color var(--default_bg) !important
+                color #fff !important
+
+        .pix-por-piggly--data 
+            border-radius 0
+            border 0
+
+            font-size 14px
+
+        .pix-por-piggly--button,
+        .pix-por-piggly--copy
+            background-color var(--default_bg) !important
+            color #fff !important
+            font-weight: 500;
+            font-size: 15px;
+            border-radius 0
+            border 0
+    ul.order_details
+        width 100%
+        max-width 1200px
+        padding-left 15px
+        padding-right 15px
+        margin 0 auto
+    
+    .woocommerce-notices-wrapper,
+    .woocommerce-form-coupon-toggle
+        width 100%
+        max-width 1200px
+        padding-left 15px
+        padding-right 15px
+        margin 0 auto
+        background-color var(--default_bg)
+        
+
+        .woocommerce-info
+            background-color transparent
+            color #fff
+            border-top-color transparent !important
+            font-size: 15px
+            font-weight: 400
+            font-family: "Poppins",sans-serif
+
+            &:before
+                color #fff
+
+            a
+                color #fff
+                font-weight: 700
+    .single-form-checkout
+        > form
+            display flex
+            flex-wrap wrap
+
+            @media screen and (max-width 600px)
+                input[type=text],
+                input[type=tel],
+                input[type=email],
+                textarea
+                    border 1px solid #8d8888 !important
+
+            .woocommerce-additional-fields__field-wrapper
+                @media screen and (max-width 600px)
+                    > p
+                        display flex
+                        flex-direction column
+
+                        label
+                            flex 0 0 auto !important
+
+            .woocommerce-checkout-review-order
+                @media screen and (max-width 600px)
+                    tr
+                        display flex
+                        flex-direction column
+
+                        #shipping_method
+                            label
+                                font-family: "Poppins",sans-serif;
+                                color: #646D77;
+                                font-size: 14px;
+                                line-height: 30px;
+                                margin-bottom: 15px;
+                                font-weight: normal;
+                                line-height: 1.4;
+
+                        .product-name
+                            font-family: "Poppins",sans-serif;
+                            color: #646D77;
+                            font-size: 14px;
+                            line-height: 30px;
+                            margin-bottom: 15px;
+                            font-weight: normal;
+                            line-height: 1.4;
+
+            .wp-element-button
+                background: var(--default_bg)
+                text-transform: uppercase;
+                padding: 27px 44px;
+                color: #fff;
+                cursor: pointer;
+                font-weight: 500;
+                font-size: 15px;
+                display: inline-block;
+                line-height: 1;
+                -moz-user-select: none;
+                letter-spacing: 1px;
+                line-height: 0;
+                margin-bottom: 0;
+                cursor: pointer;
+                transition: color 0.4s linear;
+                position: relative;
+                z-index: 1;
+                border: 0;
+                overflow: hidden;
+                margin: 0;
+                border-radius: 0px
+
+                &:before
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 101%;
+                    height: 101%;
+                    background: var(--default_bg)
+                    z-index: 1;
+                    border-radius: 0px;
+                    transition: transform 0.5s;
+                    transition-timing-function: ease;
+                    transform-origin: 0 0;
+                    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+                    transform: scaleX(0);
+                    border-radius: 0px;
+
+                &:hover
+                    background: var(--default_bg)
+                    &:before
+                        transform: scaleX(1);
+                        color: #fff !important;
+                        z-index: -1;
+
+                                
+
+            #customer_details
+                order 2
+                flex 0 0 60%
+                display flex
+                flex-direction column
+
+                @media screen and (max-width 600px)
+                    flex 0 0 100%
+
+                &:before,
+                &:after
+                    content none
+
+                > div
+                    width 100%
+                    flex initial
+                    max-width 100%
+
+                    .woocommerce-additional-fields
+                        display flex
+                        flex-direction column
+
+                        p
+                            display flex
+
+                            label
+                                flex 0 0 150px
+
+                            span 
+                                flex 1
+
+                                textarea
+                                    width: 100%;
+                                    display: block;
+                                    height: 70px;
+                                    border-radius: 3px;
+                                    padding: 10px 15px;
+                                    border: 1px solid #eeeeee;
+                                    outline: none;
+                                    box-shadow: none;
+                                    margin-top: 20px;
+                                    margin-bottom: 20px;
+                                    font-family: "Poppins",sans-serif;
+                                    font-weight: normal;
+                                    font-style: normal;
+                                    font-size: 16px;
+
+                    .woocommerce-billing-fields__field-wrapper
+                        display flex
+                        flex-direction column
+
+                        p
+                            width 100%
+
+                            display flex
+
+                            @media screen and (max-width 600px)
+                                flex-direction column
+
+                                label
+                                    flex 0 0 auto !important
+
+                                input
+                                    margin-top 0 !important
+                            label
+                                width initial
+                                flex 0 0 150px
+                            span
+                                flex 1
+
+                            input,
+                            textarea
+                                width: 100%;
+                                display: block;
+                                height: 40px;
+                                border-radius: 3px;
+                                padding: 0px 15px;
+                                border: 1px solid #eeeeee;
+                                outline: none;
+                                box-shadow: none;
+                                margin-top: 20px;
+                                margin-bottom: 20px;
+
+            #order_review
+                order 3
+                flex 0 0 40%
+
+                @media screen and (max-width 600px)
+                    flex 0 0 100%
+
+            > h3
+                order 1
+                flex 0 0 100%
+                font-size: 14px;
+                font-weight: normal;
+                font-family: "Poppins",sans-serif;
+                background: #f4f4f4;
+                line-height: 40px;
+                padding-left: 30px;
+                margin-bottom: 30px;
+
+    .wc-proceed-to-checkout
+        background: var(--default_bg)
+        text-transform: uppercase;
+        padding: 18px 30px;
+        color: #fff;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 15px;
+        display: inline-block;
+        line-height: 1;
+        -moz-user-select: none;
+        letter-spacing: 1px;
+        line-height: 0;
+        margin-bottom: 0;
+        cursor: pointer;
+        transition: color 0.4s linear;
+        position: relative;
+        z-index: 1;
+        border: 0;
+        overflow: hidden;
+        margin: 0;
+        border-radius: 0px;
+        margin-left auto
+        width 100%
+        text-align center
+
+        &:before
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 101%;
+            height: 101%;
+            background: var(--default_bg)
+            z-index: 1;
+            border-radius: 0px;
+            transition: transform 0.5s;
+            transition-timing-function: ease;
+            transform-origin: 0 0;
+            transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+            transform: scaleX(0);
+            border-radius: 0px;
+
+        &:hover
+            background: var(--default_bg)
+            &:before
+                transform: scaleX(1);
+                color: #fff !important;
+                z-index: -1;
+            
+
+        a
+            background: transparent !important
+            font-weight: 500;
+            font-size: 15px;
+            letter-spacing: 1px;
+            transition: color 0.4s linear;
+            position: relative;
+            display block
+
+    .coupon,
+    .actions
+        #coupon_code
+            padding: 0 10px;
+            width 200px
+            height 52px
+            border-radius 0
+            border 1px solid var(--default_bg)
+            color var(--default_bg)
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 1;
+            letter-spacing: 1px;
+
+            &::placeholder
+                color var(--default_bg)
+                font-weight: 500;
+                font-size: 15px;
+                text-transform: uppercase;
+        .wp-element-button,
+        .wc-proceed-to-checkout
+                background: var(--default_bg)
+                text-transform: uppercase;
+                padding: 27px 44px;
+                color: #fff;
+                cursor: pointer;
+                font-weight: 500;
+                font-size: 15px;
+                display: inline-block;
+                line-height: 1;
+                -moz-user-select: none;
+                letter-spacing: 1px;
+                line-height: 0;
+                margin-bottom: 0;
+                cursor: pointer;
+                transition: color 0.4s linear;
+                position: relative;
+                z-index: 1;
+                border: 0;
+                overflow: hidden;
+                margin: 0;
+                border-radius: 0px;
+
+                &:before
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 101%;
+                    height: 101%;
+                    background: var(--default_bg)
+                    z-index: 1;
+                    border-radius: 0px;
+                    transition: transform 0.5s;
+                    transition-timing-function: ease;
+                    transform-origin: 0 0;
+                    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+                    transform: scaleX(0);
+                    border-radius: 0px;
+
+                &:hover
+                    background: var(--default_bg)
+                    &:before
+                        transform: scaleX(1);
+                        color: #fff !important;
+                        z-index: -1;
+
+                &:disabled
+                    padding: 27px 44px !important
+                    color #fff !important
+
+    table.shop_table
+        border 0 !important
+
+        a.remove
+            font-size 50px
+
+        .woocommerce-Price-amount
+            font-size: 14px;
+            color: #2a2a2a;
+            font-family: "Poppins",sans-serif;
+            margin-bottom: 0px;
+
+        .quantity 
+            .qty
+                padding-left: 30px;
+                width: 76px;
+                border: 1px solid #eeeeee;
+                border-radius: 3px;
+                height: 50px;
+                outline: none;
+                box-shadow: none;
+                font-family: "Poppins",sans-serif
+                font-weight: normal;
+                font-style: normal;
+                font-size: 16px;
+
+        .woocommerce-cart-form__cart-item
+            margin-top: 30px;
+            margin-bottom: 30px;
+
+        .product-thumbnail
+            img
+                max-width: 150px;
+
+        td
+            border-top: 0px;
+            font-size: 14px;
+            font-weight: 500;
+            font-family: "Poppins",sans-serif;
+            color: #797979;
+            border-top: 1px solid #dee2e6;
+            padding: 30px 12px;
+            background transparent !important
+
+            @media screen and (max-width 600px)
+
+                &.actions
+                    display flex
+                    flex-direction column
+                    padding: 30px 0;
+
+                    .coupon
+                        display flex
+                        margin-bottom 20px
+
+                        #coupon_code
+                            flex 1
+
+                        .button
+                            font-size 11px
+                            padding 0 20px
+                            height 52px
+                            width initial
+                            flex 0 0 auto
+                            float initial
+                            display flex
+                            justify-content center
+                            align-items center
+
+                &.product-thumbnail
+                    display block !important
+
+            a
+                font-family: "Poppins",sans-serif;
+                color: #646D77;
+                font-size: 14px;
+                line-height: 30px;
+                margin-bottom: 15px;
+                font-weight: normal;
+                line-height: 1.4;
+
+        th
+            font-size: 14px;
+            font-weight: 500 !important;
+            font-family: Poppins,sans-serif;
+            color: #797979;
+
+        .cart-subtotal,
+        .order-total
+            th
+                font-size: 14px;
+                color: #2a2a2a;
+                font-family: "Poppins",sans-serif;
+                margin-bottom: 0px;
+
+            strong
+                font-size: 14px;
+                color: #2a2a2a;
+                font-family: "Poppins",sans-serif;
+                margin-bottom: 0px;
+                font-style: normal;
+                font-weight: 500;
+
+
+
+
+    section
+        &.related
+            &.products
+                h2
+                    font-size: 24px;
+                    color: #2a2a2a;
+                    margin-bottom: 50px;
+                    font-weight: 700;
+                    font-family: "Poppins",sans-serif;
+    .woocommerce-notices-wrapper
+        margin-bottom 60px
+    .woocommerce-message
+        background: var(--default_bg)
+        color #fff
+        border-top-color: var(--default_bg)
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 15px;
+        
+
+        &:before
+            color: #fff;
+
+        .wc-forward
+            background-color #fff;
+            color var(--default_bg)
+            border-radius 0
+            
+            
+    .wc-tabs-wrapper
+        margin-top 80px !important
+
+    .woocommerce-Tabs-panel--description
+        margin-bottom 150px !important
+        text-align left
+
+        p
+            font-family: "Poppins",sans-serif;
+            color: #646D77;
+            font-size: 14px;
+            line-height: 30px;
+            margin-bottom: 15px;
+            font-weight: normal;
+            line-height: 1.4;
+    .woocommerce-Tabs-panel
+        h2
+            text-align left
+            margin-bottom 20px
+            margin-top 20px
+    .woocommerce-product-attributes-item__value
+        font-family: "Poppins",sans-serif;
+        color: #646D77;
+        font-size: 14px;
+        line-height: 30px;
+        margin-bottom: 15px;
+        font-weight: normal;
+        line-height: 1.4;
+
+
+.wc-tabs-wrapper
+    ul
+        display flex
+        padding-left 5px !important
+
+        &:before,
+        &:after
+            content none !important
+
+        li
+            background #fff !important
+            border 0 !important
+
+            &:first-child
+                padding-left 0 !important
+
+            &:before,
+            &:after
+                content none !important
+            a
+                line-height: 38px;
+                background: #fff;
+                border: 1px solid #eeeeee;
+                border-radius: 0px;
+                padding: 0px 30px !important;
+                color: #2a2a2a !important;
+                font-size: 13px !important;
+                font-weight: normal !important;
+                border-radius: 50px;
+
+            &.active
+                a
+                    background: var(--default_bg)
+                    color: #fff !important;
+                    border-color: var(--default_bg)
+
+.wrapper
+    > .single__title
+        display flex
+        margin 50px auto
+        font-family: "Poppins",sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        color: #2a2a2a;
+
+        @media (min-width: 1200px)
+            max-width: 1200px;
+
+    .woocommerce
+        .title__page
+            display flex
+            margin 50px auto
+            font-family: "Poppins",sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: #2a2a2a;
+            text-transform capitalize
+
+            @media (min-width: 1200px)
+                max-width: 1200px;
+
+        .comentarios__forma
+            margin 0 auto
+            @media (min-width: 1200px)
+                max-width: 1200px;
+
+            .comment-reply-title
+                color: #2a2a2a;
+                margin-bottom: 0px;
+                font-size: 24px;
+
+            form
+                .form-submit
+                    display flex
+                    align-items flex-end
+                    .submit
+                        background: var(--default_bg)
+                        background-color: var(--default_bg) !important
+                        text-transform: uppercase
+                        padding: 27px 44px !important
+                        color: #fff !important
+                        cursor: pointer
+                        font-weight: 500 !important
+                        font-size: 15px !important
+                        display: inline-block
+                        line-height: 1
+                        -moz-user-select: none
+                        letter-spacing: 1px
+                        line-height: 0
+                        margin-bottom: 0
+                        cursor: pointer
+                        transition: color 0.4s linear
+                        position: relative
+                        z-index: 1
+                        border: 0
+                        overflow: hidden
+                        margin: 0
+                        border-radius: 0px !important
+                        margin-left auto !important
+                        margin-top 20px
+                        margin-bottom 50px
+                .comment-form-comment
+                    font-size: 26px;
+                    font-weight: 400;
+                    font-family: "Poppins",sans-serif;
+                    display flex
+                    margin-top 50px !important
+
+                    label
+                        margin-right 15px
+                        font-family: "Poppins",sans-serif;
+                        color: #646D77;
+                        font-size: 14px;
+                        line-height: 30px;
+                        font-weight: normal;
+                        line-height: 1.4;
+                        text-transform uppercase
+                        flex 0 0 auto
+                        width initial
+
+                    textarea
+                        flex 1
+                        width initial
+                        max-height 120px
+                        height 50px
+                        border-radius 0
+                        padding: 0.375rem 0.75rem;
+                        font-size: 1rem;
+                        line-height: 1.5;
+                        color: #495057;
+                        background-color: #fff;
+                        background-clip: padding-box;
+                        border: 1px solid #ced4da;
+                p
+                    font-size: 24px;
+                    font-weight: 400;
+                    font-family: "Poppins",sans-serif;
+
+                a
+                    color: var(--default_bg)
+                    font-size: 24px;
+                    font-weight: 400;
+                    font-family: "Poppins",sans-serif;
+
+    .add__date
+        display none
+
+.single-product
+    .onsale
+        display flex
+        justify-content center
+        align-items center
+        background-color var(--default_bg) !important
+        color #fff
+        border-radius 0 !important
+        padding 5px 20px !important
+        text-transform uppercase
+
+.s_product_inner
+
+    .product_meta
+        .posted_in
+            color: #555;
+            font-size: 14px;
+            font-family: "Poppins",sans-serif;
+            font-weight: normal;
+            margin-right 10px
+
+            a
+                color var(--default_bg)
+        .posted_in,
+        .tagged_as,
+        .sku_wrapper
+            color: #555;
+            font-size: 14px;
+            font-family: "Poppins",sans-serif;
+            font-weight: normal;
+            margin-right 10px
+
+            span,
+            a
+                color var(--default_bg)
+
+    .woocommerce-variation-add-to-cart
+        .input-text 
+            &.qty
+                border-radius 0
+                margin 0
+                appearence none
+                border: 0px solid transparent;
+                text-align: center;
+                outline 0
+                font-family: "Poppins",sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                color: #2a2a2a;
+                display inline-block
+                width 60px
+                max-height 26px
+
+        .single_add_to_cart_button
+            background: var(--default_bg) !important;
+            text-transform: uppercase;
+            padding: 27px 44px;
+            color: #fff;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 15px;
+            display: inline-block;
+            line-height: 1;
+            -moz-user-select: none;
+            letter-spacing: 1px;
+            line-height: 0;
+            margin-bottom: 0;
+            cursor: pointer;
+            transition: color 0.4s linear;
+            position: relative;
+            z-index: 1;
+            border: 0;
+            overflow: hidden;
+            margin: 0;
+            border-radius: 0px;
+
+            &.disabled
+                padding: 27px 44px;
+
+    .variations
+        .label
+            font-family: "Poppins",sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: #2a2a2a;
+
+    .woocommerce-product-details__short-description
+        p
+            font-family: "Poppins",sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: #2a2a2a;
+
+    .woocommerce-product-gallery
+        padding-left 15px
+        padding-right 15px
+
+    .summary 
+        &.entry-summary
+            text-align left
+
+            .price
+                font-size: 24px;
+                font-weight: bold;
+                color: var(--default_bg)
+                text-decoration none
+
+            ins
+                bdi 
+                    &, > *
+                        text-decoration none !important
+
+            bdi
+                opacity .7
+                color: var(--default_bg)
+                margin-right 10px
+
+.new-arrival 
+    .single-new-arrival 
+        .popular-img 
+            img
+                height auto
+
+.visit-tailor-area 
+    .tailor-offers
+        background-position: center center !important
+        background-size: 111% !important
+
+.properties.new-arrival,
+.related.products
+    .products
+        display flex
+        flex-wrap wrap
+
+        li
+            flex 0 0 calc(25% - 20px)
+            margin 10px 10px !important
+            border: 0
+            padding: 15px !important;
+            text-align center
+            width initial
+
+            
+
+            a
+                display flex
+                flex-direction column
+                text-align left
+
+                h2
+                    order 2
+                    height 75px
+                article
+                    order 3
+                    font-family var(--default-font)
+                    text-align left
+                    font-weight: 400
+                    font-size: 14px
+                    line-height: 20px
+                    padding: 4px 0
+                    height 65px !important
+                > span
+                    order 4
+                    &.price
+                        text-align left
+                        display flex
+                        flex-direction column
+                        height 60px
+
+                        bdi
+                            font-size: 18px
+                            font-weight: 700
+                            line-height: 28px
+                            color: #000
+                            font-family var(--default-font)
+
+                        del 
+                            text-decoration none
+                            bdi
+                        
+                                font-weight: 700
+                                font-size: 14px
+                                line-height: 20px
+                                color: #8d8d8d
+                                font-family var(--default-font)
+                                text-decoration line-through
+
+            img
+                border-radius 24px
+                order 1
+
+            .onsale
+                display none
+
+            a.add_to_cart_button
+                display flex
+                height 45px
+                background var(--default_bg)
+                font-family var(--default-font)
+                justify-content center
+                align-items center
+                color #fff
+                font-weight: 700
+                line-height: 32px
+                border-radius 8px
+
+                &:hover
+                    color: #fff;
+                    background var(--default_bg) !important
+
+                    &::before
+                        content: " ";
+                        transform: scaleY(1);
+                        border: 1px solid transparent;
+                        color: #fff;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        width: 101%;
+                        height: 101%;
+                        background: var(--default_bg) !important;
+                        z-index: 999;
+                        transition: transform 0.5s;
+                        transition-timing-function: ease;
+                        transform-origin: 0 0;
+                        transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+                        transform: scaleY(0);
+                        border-radius: 0;
+
+
+
+            .price
+                text-align center
+
+                > *
+                    color #670000 !important
+                    font-size: 20px;
+                    font-weight: 600;
+                    font-family: "Poppins",sans-serif;
+                    text-decoration none
+
+                del
+                    text-decoration line-through
+
+            .woocommerce-loop-product__title
+                font-family var(--default-font)
+                transition .3s
+                text-decoration none
+                font-weight 700
+                font-size 20px !important
+                line-height 24px
+                color #000 !important
+                margin-bottom 20px !important
+                text-align left
+
+.woocommerce 
+    div.product 
+        form.cart 
+            .button
+                background var(--default_bg)
+                border-radius 24px

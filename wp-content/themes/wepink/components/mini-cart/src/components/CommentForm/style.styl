@@ -1,0 +1,128 @@
+#comment_form_single
+    display flex
+    flex-direction column
+    padding 25px 
+    background #f5f5f5
+    border-radius 8px
+    margin-bottom 50px
+
+    .comments_list
+        display flex
+        flex-direction column
+        padding-bottom 30px
+        border-bottom 1px solid #d5d4d4
+        margin-bottom 30px
+
+        .comment
+            display flex
+            flex-direction column
+            padding-bottom 20px
+
+            &:not(:last-child)
+                margin-bottom 20px
+                border-bottom 1px solid #d5d4d4
+            header
+                display flex
+                align-items center
+                margin-top 10px
+                font-family var(--font-family)
+                margin-bottom 15px
+
+                .name
+                    font-weight 700
+                    font-size 16px
+                    text-transform capitalize
+                    margin-right 10px
+
+                .date
+                    margin-right 10px
+                    font-weight 500
+                    font-size 16px
+                    color #bbbaba
+
+
+                figure
+                    width 45px
+                    flex 0 0 45px
+                    height 45px
+                    overflow hidden
+                    border-radius 40px
+                    margin 0
+                    margin-right 10px
+
+                    img
+                        width 100%  
+                        height auto
+#comment_form_single
+    .comment
+        .review
+            white-space: pre-wrap
+
+.single_comment_form
+    display flex
+    width 100%
+
+    .rating
+        position absolute
+        right 50px
+        bottom 20px
+
+    .comment
+        flex 1
+        display flex
+        position relative
+
+        .review
+            white-space: pre-wrap
+
+        textarea
+            flex 0 0 calc(100% - 15px)
+            margin-left 15px
+            border-radius 8px
+            border 0
+            box-shadow: 0 2px 17px #0000000a, 0 1px 3px #0000001a;
+            padding 15px
+            overflow hidden
+            height 50px
+            font-family var(--font-family)
+            font-weight 400
+            font-size 14px
+            resize none
+            white-space: pre-line
+
+            &.error
+                border 1px solid red
+
+                &, &:placeholder
+                    color red
+
+        button
+            position absolute
+            display flex
+            align-items center
+            justify-content center
+            background #2464f1
+            width 35px
+            height 35px
+            right 10px
+            top 8px
+            border-radius 5px
+            border 0
+            cursor pointer
+
+            span
+                flex 0 0 17px
+
+            &:hover
+                background var(--default_bg)
+
+    figure
+        flex 0 0 50px
+        width 50px
+        height 50px
+        overflow hidden
+        border-radius 30px
+
+        img
+            width 100%
+            height auto
